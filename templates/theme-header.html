@@ -3,8 +3,18 @@
 <%namespace name='static' file='/static_content.html'/>
 <%inherit file="/navigation.html"/>
 
-## TODO: this will eventually be moved to the Sass
-<%block name="navigation_logo">
-  <img src="${static.url('themes/oax/static/images/logo.png')}" height="50" alt="Home Page" />
+## Logo Oaxaca
+<%block name="navigation_top">
+  <div id="su-header">
+    <div class="su-container">
+      <a href="http://www.oaxaca.gob.mx">
+        <img src="${static.url('themes/oax/images/logo.png')}" alt="Gobierno de Oaxaca" width="310" height="91">
+      </a>
+    </div>
+  </div>
 </%block>
 
+## TODO: this will eventually be moved to the Sass
+<%block name="navigation_logo">
+  <img src="${static.url('themes/oax/images/logo.png')}" height="35" alt="Home Page" />
+</%block>
