@@ -47,7 +47,7 @@
 
 #su-footer,
 #su-footer .su-container {
-  background: #dddddd;
+  background: #ea801f;
   color: #dddddd;
   box-shadow: inset 0 4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
 }
@@ -235,7 +235,7 @@ Media queries
 
 @media screen and (min-width: 1200px) {
   /* Bootstrap style */
-  
+
   #su-header .su-container,
   #su-footer .su-container {
     width:1180px;
@@ -256,7 +256,7 @@ Media queries
 
 /*
 Sticky Footer Solution
-by Steve Hatcher 
+by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
