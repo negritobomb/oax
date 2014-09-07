@@ -40,14 +40,14 @@
 
 /* Background gradient */
 #su-header {
-  background: #2089a5;
+  background: #ea801f;
   box-shadow: inset 0 -4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
   min-height: 30px;
 }
 
 #su-footer,
 #su-footer .su-container {
-  background: #2089a5;
+  background: #ea801f;
   color: #fffefd;
   box-shadow: inset 0 4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
 }
@@ -105,11 +105,11 @@
   margin: 0;
   padding: 30px 0 0;
   line-height: 1.5em;
-  color: #fffefd;
+  color: #000000;
 }
 
 #su-footer p.copyright span {
-  color: #fffefd;
+  color: #000000;
 }
 
 /* Footer two columns */
@@ -235,7 +235,7 @@ Media queries
 
 @media screen and (min-width: 1200px) {
   /* Bootstrap style */
-  
+
   #su-header .su-container,
   #su-footer .su-container {
     width:1180px;
@@ -256,7 +256,7 @@ Media queries
 
 /*
 Sticky Footer Solution
-by Steve Hatcher 
+by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
