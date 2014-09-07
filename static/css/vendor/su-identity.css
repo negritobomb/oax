@@ -40,15 +40,15 @@
 
 /* Background gradient */
 #su-header {
-  background: #ea801f;
+  background: #ffffff;
   box-shadow: inset 0 -4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
   min-height: 30px;
 }
 
 #su-footer,
 #su-footer .su-container {
-  background: #ea801f;
-  color: #fffefd;
+  background: #f4b37d;
+  color: #000000;
   box-shadow: inset 0 4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
 }
 
@@ -58,7 +58,7 @@
 }
 
 #su-footer a {
-  color: #fffefd;
+  color: #000000;
 }
 
 #su-footer a:hover {
